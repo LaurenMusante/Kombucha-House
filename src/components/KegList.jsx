@@ -26,6 +26,7 @@ var masterKegList = [
 function KegList() {
     return (
         <div>
+            <h1>Current Kegs in Our Rotation:</h1>
             <hr />
             {masterKegList.map((keg, index) =>
                 <Keg
