@@ -1,6 +1,6 @@
 import React from 'react';
 import Keg from './Keg';
-import './KegList.css'
+import './KegList.css';
 import { Link } from 'react-router-dom';
 
 var masterKegList = [

@@ -28,7 +28,8 @@ function NewKegForm() {
                     placeholder='Flavor'
                 />
                 <hr/>
-                <button className='btn add-button'><Link to='/'>Add Keg! </Link></button>
+                <button className='btn add-button'><Link to='/editkeg'>Review Keg </Link></button>
+                {/* This button will eventually take me to a 'cofirm or edit keg' page  */}
             </form>
             <h1><Link to='/'>Home</Link></h1> 
         </div>
