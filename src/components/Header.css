@@ -1,3 +1,38 @@
-.test {
-    background-color: yellow;
+body {
+    background-color: #233714;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #EFCFB6;
+   text-shadow:
+   -4px -4px black;  
+    text-align: center;
+    font-size: 80px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-header {
+    background-color: #EFCFB6;
+}
+
+.card {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    background-color: #6B591D;
+    width: 500px;
+}
+a {
+    color: #FDECED;
 }
