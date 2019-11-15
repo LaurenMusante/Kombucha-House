@@ -6,10 +6,11 @@ import './Keg.css'
 function Keg(props) {
     return (
         <div>
-            <h3>{props.brand} - {props.name}</h3>
-            <p><em>{props.price}</em></p>
+            <h1>{props.brand} - {props.name}</h1>
+            <p className='price'><strong>{props.price}</strong></p>
             <p>{props.flavor}</p>
-            <button className='btn home-button'><Link to='/'>Sell Pint </Link></button>
+            <button className='btn keg-button'><Link to='/'>Sell Pint </Link></button>
+            {/* this link will eventually take one pint away from the 124 pints held within each keg */}
             <hr />
         </div>
     );

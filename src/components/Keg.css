@@ -1,6 +1,13 @@
-.home-button {
+.keg-button {
     background-color: rgb(37, 37, 37);
     border-color: #EFCFB6; 
     color: #EFCFB6;
+}
+
+.price {
+    font-size: 50px;
+    color: rgb(199, 186, 0);
+    -webkit-text-stroke: .5px black;
+    font-family: 'Bebas Neue', cursive;
 }
 

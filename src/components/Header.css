@@ -11,10 +11,17 @@ h1 {
 h2 {
     font-family: 'Bebas Neue', cursive;
     color: #EFCFB6;
-   text-shadow:
-   -4px -4px black;  
+    text-shadow:
+    -4px -4px black;  
     text-align: center;
     font-size: 80px;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 60px;
+    text-align: center;
 }
 
 p {
@@ -31,8 +38,12 @@ p {
     margin-left: auto;
     margin-top: 8%;
     background-color: #6B591D;
-    width: 500px;
+    width: 700px;
 }
 a {
     color: #FDECED;
+}
+
+a:hover {
+    color:  #233714;;
 }
