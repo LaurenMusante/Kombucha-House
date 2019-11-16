@@ -58,9 +58,18 @@ module.exports = {
                         "react",
                     ],
                     plugins: [
-                        "react-hot-loader/babel",
-                        "styled-jsx/babel"
+                        "react-hot-loader/babel"
                     ]
+                }
+            },
+            {
+                test: /\.(png|gif|jp(e*)g|svg)$/,
+                use: {
+                    loader: 'url-loader',
+                    options: {
+                        limit: 8000,
+                        name: 'images/[hash]-[name].[ext]'
+                    }
                 }
             }
         ]
@@ -72,7 +81,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: 'template.ejs',
             appMountId: 'react-app-root',
-            title: 'Kombucha Kegs',
+            title: 'Shopping',
             filename: resolve(__dirname, "build", "index.html"),
         }),
     ]
