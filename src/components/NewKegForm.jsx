@@ -27,34 +27,33 @@ function NewKegForm(props) {
                     id='brand'
                     placeholder='Brand'
                     ref={(input) => { _brand = input; }} />
-                />
+            
                 <input
                     type='text'
                     id='name'
                     placeholder='Name'
                     ref={(input) => { _name = input; }} />
-                />
+            
                 <input
                     type='text'
                     id='price'
                     placeholder='Price'
                     ref={(input) => { _price = input; }} />
-                />
+                
                 <input
                     type='text'
                     id='flavor'
                     placeholder='Flavor'
                     ref={(input) => { _flavor = input; }} />
-                />
+            
                 <hr/>
                 <button type='submit'>Add Keg!</button>
-                {/* This button will eventually take me to a 'cofirm or edit keg' page  */}
             </form>
             <h1><Link to='/'>Home</Link></h1> 
         </div>
     );
 }
 NewKegForm.propTypes = {
-    onNewKegCreation: propTypes.func
+    onNewKegCreation: PropTypes.func
 };
 export default NewKegForm;

@@ -2,6 +2,7 @@ import React from 'react';
 import Keg from './Keg';
 import './KegList.css';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 // var masterKegList = [
 //     {
@@ -50,7 +51,7 @@ function KegList(props) {
                         name={keg.name}
                         price={keg.price}   
                         flavor={keg.flavor}
-                        key={ticket.id}
+                        key={keg.id}
                     />
                 )}
                 <h1><Link to='/'>Home</Link></h1> 
@@ -60,6 +61,6 @@ function KegList(props) {
 }
 KegList.propTypes = {
     kegList: PropTypes.array
-}
+};
 
 export default KegList;
