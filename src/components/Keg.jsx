@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './Keg.css';
+import PintButton from './PintButton'
 
 function Keg(props) {
     return (
@@ -9,7 +10,7 @@ function Keg(props) {
             <h1>{props.brand} - {props.name}</h1>
             <p className='price'><strong>{props.price}</strong></p>
             <p>{props.flavor}</p>
-            <button className='btn keg-button'><Link to='/'>Sell Pint </Link></button>
+            <PintButton />
             <hr />
         </div>
     );
