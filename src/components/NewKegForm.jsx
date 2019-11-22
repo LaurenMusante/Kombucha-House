@@ -3,6 +3,7 @@ import './NewKegForm.css';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
+import Header from './Header';
 
 function NewKegForm(props) {
     let _brand = null;
@@ -10,14 +11,14 @@ function NewKegForm(props) {
     let _price = null;
     let _flavor = null;
 
-    function handleNewKegFormSubmission(event){
-        event.preventDefault();
-        props.onNewKegCreation({brand: _brand.value, name: _name.value, price: _price.value, flavor: _flavor.value, id: v4() });
-        _brand.value = '';
-        _name.value = '';
-        _price.value = '';
-        _flavor.value = '';
-    }
+function handleNewKegFormSubmission(event){
+    event.preventDefault();
+    props.onNewKegCreation({brand: _brand.value, name: _name.value, price: _price.value, flavor: _flavor.value, id: v4() });
+    _brand.value = '';
+    _name.value = '';
+    _price.value = '';
+    _flavor.value = '';
+}
     return (
         <div className='form'>
             <h2>What kind of keg?</h2>
