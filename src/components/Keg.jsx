@@ -10,7 +10,6 @@ function Keg(props) {
             <p className='price'><strong>{props.price}</strong></p>
             <p>{props.flavor}</p>
             <button className='btn keg-button'><Link to='/'>Sell Pint </Link></button>
-            {/* this link will eventually take one pint away from the 124 pints held within each keg */}
             <hr />
         </div>
     );
