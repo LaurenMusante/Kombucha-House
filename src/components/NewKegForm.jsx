@@ -3,7 +3,7 @@ import './NewKegForm.css';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
-import Header from './Header';
+
 
 function NewKegForm(props) {
     let _brand = null;
