@@ -47,12 +47,14 @@ function NewKegForm(props) {
                     ref={(input) => { _flavor = input; }} />
                 />
                 <hr/>
-                <button className='btn add-button'><Link to='/editkeg'>Review Keg </Link></button>
+                <button type='submit'>Add Keg!</button>
                 {/* This button will eventually take me to a 'cofirm or edit keg' page  */}
             </form>
             <h1><Link to='/'>Home</Link></h1> 
         </div>
     );
 }
-
+NewKegForm.propTypes = {
+    onNewKegCreation: propTypes.func
+};
 export default NewKegForm;
