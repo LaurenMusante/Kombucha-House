@@ -4,7 +4,7 @@ class PintButton extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 124
+            count: 124,
         };
         this.handleDecrement = this.handleDecrement.bind(this);
     }

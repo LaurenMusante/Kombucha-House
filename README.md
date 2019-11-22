@@ -6,9 +6,9 @@
 
 ## Description
 
-_This is a website where a user can view what flavors of kombucha the kombucha house has. User can also check the price and description of each kombucha. As the kombucha is sold, there is a button for each flavor that will keep track of how many pints are left in each keg. This functionality is not in place yet, but will be by 11/22/19.  _
+_This is a website where a user can view what flavors of kombucha the kombucha house has. User can also check the price and description of each kombucha. As the kombucha is sold, there is a button for each flavor that will keep track of how many pints are left in each keg. Persistence to retain pint count number is not yet implemented. _
 
-<img src="KombuchaHouse.png"
+<img src="KombuchaHouse2.png"
      alt="WireFrame for project"
      style="float: center" 
      height= "500" />  
